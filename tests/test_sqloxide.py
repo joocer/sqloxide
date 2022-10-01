@@ -1,5 +1,5 @@
 import pytest
-from sqloxide import parse_sql
+from sqlo2 import parse_sql
 
 
 def test_parse_sql():

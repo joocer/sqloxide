@@ -66,7 +66,7 @@ fn parse_sql(py: Python, sql: &str, dialect: &str) -> PyResult<PyObject> {
 }
 
 #[pymodule]
-fn sqloxide(_py: Python, m: &PyModule) -> PyResult<()> {
+fn sqlo2(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(parse_sql, m)?)?;
     Ok(())
 }

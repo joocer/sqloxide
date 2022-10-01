@@ -1,6 +1,6 @@
 import pytest
 
-from sqloxide import parse_sql
+from sqlo2 import parse_sql
 import sqlparse
 import sqlglot
 import json

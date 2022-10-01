@@ -2,22 +2,22 @@
 from setuptools import setup
 
 packages = \
-['sqloxide']
+['sqlo2']
 
 package_data = \
 {'': ['*']}
 
 setup_kwargs = {
-    'name': 'sqloxide',
+    'name': 'sqlo2',
     'version': '0.1.22',
     'description': 'Python bindings for sqlparser-rs',
     'long_description': open('readme.md').read(),
     'long_description_content_type': 'text/markdown',
-    'author': 'Will Eaton',
-    'author_email': 'me@wseaton.com',
+    'author': 'Justin Joyce',
+    'author_email': 'justin.joyce@joocer.com',
     'maintainer': None,
     'maintainer_email': None,
-    'url': 'https://github.com/wseaton/sqloxide',
+    'url': 'https://github.com/joocer/sqloxide',
     'packages': packages,
     'package_data': package_data,
     'python_requires': '>=3.6.0,<4.0',

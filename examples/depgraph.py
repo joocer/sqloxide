@@ -9,7 +9,7 @@ import os
 from glob import glob
 from typing import List
 
-import sqloxide
+import sqlo2
 from graphviz import Digraph
 
 parser = argparse.ArgumentParser()
@@ -52,7 +52,7 @@ def get_key_recursive(search_dict, field):
 
 def get_tables_in_query(SQL: str, dialect: str) -> List[str]:
 
-    res = sqloxide.parse_sql(sql=SQL, dialect=dialect)
+    res = sqlo2.parse_sql(sql=SQL, dialect=dialect)
     tables = get_key_recursive(res[0]["Query"], "Table")
 
     results = list()
