@@ -1,11 +1,11 @@
 [package]
-name = "sqloxide"
+name = "sqlo2"
 version = "0.1.22"
 authors = ["Will Eaton <me@wseaton.com>"]
 edition = "2018"
 
 [lib]
-name = "sqloxide"
+name = "sqlo2"
 crate-type = ["cdylib"]
 
 [dependencies]
