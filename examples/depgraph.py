@@ -4,8 +4,6 @@ of .sql files. Renders via graphviz.
 """
 
 import argparse
-import json
-import os
 from glob import glob
 from typing import List
 
