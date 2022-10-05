@@ -9,7 +9,7 @@ package_data = \
 
 setup_kwargs = {
     'name': 'sqlo2',
-    'version': '0.1.22',
+    'version': '0.25.0',
     'description': 'Python bindings for sqlparser-rs',
     'long_description': open('readme.md').read(),
     'long_description_content_type': 'text/markdown',
